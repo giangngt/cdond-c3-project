@@ -247,8 +247,8 @@ jobs:
             else
               echo "No migrations are pending" 
             fi
-      - destroy_environment
-      - revert_migrations 
+      - destroy-environment
+      - revert-migrations 
 
 workflows:
   default:
